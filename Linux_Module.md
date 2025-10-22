@@ -8,3 +8,12 @@ It is widely recognized for:
 
 ### What is the Terminal?
 - The Terminal is a command-line interface (CLI) that lets you interact with the operating system by typing commands, it's where you can navigate and automate tasks.
+
+### Anatomy of a Linux Command
+- Commands generally follow this structure:
+
+command [options] [arguments]
+
+Example:
+
+ls -a Desktop
