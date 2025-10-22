@@ -39,6 +39,13 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - `sudo usermod -aG sudo newuser`
 - `sudo deluser newuser sudo`
 
+###Managing Groups
+- Groups can be created, have users added, users deleted & the group deleted
+- `sudo groupadd devops`
+- `sudo usermod -aG devops newuser`
+- `sudo gpasswd -d newuser devops`
+- `sudo groupdel devops`
 
+### File Permissions
 
 
