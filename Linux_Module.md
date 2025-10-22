@@ -31,6 +31,14 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - `sudo apt install <package>` | Install a new package
 - `sudo !!` | Run the previous command again, but with sudo
 
+### Managing Users
+- Users can be created, switched, granted access & have access removed on linux.
+- `sudo adduser newuser`
+- `sudo passwd newuser`
+- `su - newuser`
+- `sudo usermod -aG sudo newuser`
+- `sudo deluser newuser sudo`
+
 
 
 
