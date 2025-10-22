@@ -18,8 +18,20 @@
 - `cat "...Hiding-From-You"`
 - Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ### Level 4 -> Level 5
+- ssh bandit4@bandit.labs.overthewire.org -p 2220
+- `file./*`
+- `cat ./-file07`
+- Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ### Level 5 -> Level 6
+- ssh bandit5@bandit.labs.overthewire.org -p 2220
+- `find -readable -size 1033c ! -executable`
+- `cat "./maybehere07/.file2"`
+- Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ### Level 6 -> Level 7
+- ssh bandit6@bandit.labs.overthewire.org -p 2220
+- `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null`
+- `cat "/var/lib/dpkg/info/bandit7.password"`
+- Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ### Level 7 -> Level 8
 ### Level 8 -> Level 9
 ### Level 9 -> Level 10
