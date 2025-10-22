@@ -24,3 +24,13 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 | Fish  | Friendly Interactive Shell | Syntax highlighting, suggestions               |
 | Ksh   | Korn Shell                 | Enterprise compatibility                       |
 | Sh    | Bourne Shell               | Simpler, classic shell                         |
+
+### Superuser Access with sudo
+- sudo stands for superuser do — it runs commands with administrative privileges.
+- Example
+- `sudo apt install <package>` | Install a new package
+- `sudo !!` | Run the previous command again, but with sudo
+
+
+
+
