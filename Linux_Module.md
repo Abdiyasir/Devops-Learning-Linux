@@ -16,7 +16,7 @@ Commands generally follow this structure:
 
 ### Introduction to the Shell
 The shell acts as a bridge between you and the operating system, interpreting what you type and translating into system actions.
-## Type of Shells
+#Type of Shells
 | Shell | Full Name                  | Key Features                                   |
 | ----- | -------------------------- | ---------------------------------------------- |
 | Bash  | Bourne Again Shell         | Default on most systems                        |
