@@ -79,4 +79,13 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - `sudo chown newuser:newgroup file.txt` | Changes both the owner and the group of file.txt in one step.
 - `sudo chown -R newuser:newgroup directory/` | recursively changes ownership of a directory and everything inside it — including all subdirectories and files. Owner becomes newuser & group becomes newgroup
 
+### Standard Streams
+Linux commands use three data streams:
 
+- Standard Input (stdin) → What you type into a command.
+- Standard Output (stdout) → The normal results a command prints.
+- Redirect to a file with > (overwrite) or >> (append).
+- Standard Error (stderr) → Where error messages go.
+- Redirect to a file with 2> (overwrite) or 2>> (append).
+- To redirect both output and errors, use &> or &>>.
+- Send output to /dev/null to discard it.
