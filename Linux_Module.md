@@ -13,3 +13,14 @@ It is widely recognized for:
 Commands generally follow this structure:
 - `command [options] [arguments]`
 - `ls -a Desktop`
+
+### Introduction to the Shell
+The shell acts as a bridge between you and the operating system, interpreting what you type and translating into system actions.
+## Type of Shells
+| Shell | Full Name                  | Key Features                                   |
+| ----- | -------------------------- | ---------------------------------------------- |
+| Bash  | Bourne Again Shell         | Default on most systems                        |
+| Zsh   | Z Shell                    | Customizable, autocompletion, spell correction |
+| Fish  | Friendly Interactive Shell | Syntax highlighting, suggestions               |
+| Ksh   | Korn Shell                 | Enterprise compatibility                       |
+| Sh    | Bourne Shell               | Simpler, classic shell                         |
