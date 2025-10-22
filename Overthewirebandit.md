@@ -1,3 +1,6 @@
+### Over The Wire Bandit Game
+
+## First step
 - Log into the server via: ssh bandit0@bandit.labs.overthewire.org -p 2220
 - Password: bandit0
 ### Level 0 -> Level 1
