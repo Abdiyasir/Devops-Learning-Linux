@@ -91,11 +91,16 @@ Linux commands use three data streams:
 - Send output to /dev/null to discard it.
 
 ### Environment Variable
-Environment variables define your shell environment and behavior.
-- 
-
-
-
+- Environment variables define your shell environment and behavior.
+- $PATH – directories searched for executables
+- $HOME – user home directory
+- $USER – username
+- $SHELL – current shell
+Temporary Variable Example:
+- `sudo chown -R newuser:newgroup directory/` | creates an environment variable called MY_VAR with the value "hello".
+- By default, variables you create (like MY_VAR) only last for the current terminal session.
+To make them permanent, you add them to your shell config file — for example, .zshrc if you use Zsh.
+- `export MY_VAR="hello" && source ~/.zshrc` | By default, variables you create (like MY_VAR) only last for the current terminal session. To make them permanent, you add them to your shell config file — for example, .zshrc.
 
 
 
