@@ -11,6 +11,5 @@ It is widely recognized for:
 
 ### Anatomy of a Linux Command
 - Commands generally follow this structure:
-command [options] [arguments]
-
+`command [options] [arguments]`
 
