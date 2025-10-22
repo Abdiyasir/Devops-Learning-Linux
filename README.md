@@ -43,4 +43,10 @@ This repository covers the useful common commands in linux and the different top
 | `sort`  | Sort lines                 |                                
 | `uniq`  | Removes consecutive duplicate lines from a file |                                
 | `wc -l` | Count lines                |                               
+### Permissions
+| Command              | Description              |
+| -------------------- | ------------------------ |
+| `chmod 755 file`     | Change file permissions - Owner can read, write and execute - Group & Others can read and execute |
+| `chmod +x script.sh` | Make a script executable |
+| `chown user file`    | Changes ownership of a file so that 'user' becomes the new owner |
 
