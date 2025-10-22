@@ -1,1 +1,38 @@
+# Linux Learning Module
+
+This repository is a structured collection of my Linux revision notes. It’s organized into modules for easy navigation and practical learning. Each module includes commands, explanations, and examples to showcase my hands-on learning.
+
+## Modules
+
+1. **Basics**
+   - Navigation (`pwd`, `cd`, `ls`, etc.)
+   - File & directory management (`mkdir`, `rm`, `cp`, `mv`, `touch`, etc.)
+   - Viewing files (`cat`, `head`, `tail`, `less`)
+   - Search and filters (`grep`, `find`, `sort`, `uniq`, `wc`)
+   - Redirection & pipes (`>`, `>>`, `|`)
+
+2. **Permissions & Users**
+   - File permissions (`chmod`, `chown`)
+   - Users and groups (`useradd`, `passwd`, `su`)
+
+3. **System Information**
+   - Disk usage (`du`, `df`)
+   - System info (`uname`, `whoami`, `history`)
+
+4. **Shell & Environment**
+   - Bash vs ZSH
+   - Shell configuration (`.bashrc`, aliases)
+   - Environment variables (`PATH`, `HOME`, `USER`)
+
+5. **Archives & Packages**
+   - File compression (`tar`, `gzip`, `gunzip`)
+   - Package management (APT commands)
+
+---
+
+## How to Use
+
+- Each module folder contains Markdown files with commands and examples.
+- You can view them on GitHub or clone the repository to use them locally.
+- Commands are practical and ready to try in your own terminal.
 
