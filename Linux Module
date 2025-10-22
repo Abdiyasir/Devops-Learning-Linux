@@ -36,3 +36,15 @@ This repository is a structured collection of my Linux revision notes. It’s or
 - You can view them on GitHub or clone the repository to use them locally.
 - Commands are practical and ready to try in your own terminal.
 
+# Navigation Commands
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `pwd` | Show current directory | `pwd` → `/home/user` |
+| `ls` | List files | `ls` → `file1 file2` |
+| `ls -l` | Detailed list | `ls -l` |
+| `ls -a` | Show hidden files | `ls -a` |
+| `cd <dir>` | Change directory | `cd Documents/` |
+| `cd ..` | Go up one level | `cd ..` |
+| `cd ~` | Go to home | `cd ~` |
+
