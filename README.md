@@ -1,6 +1,13 @@
 # Devops-Learning-Linux
 This repository covers the useful common commands in linux and the different topics I have covered.
 ## Common Commands
+### System Info
+| Command    | Description          |
+| ---------- | -------------------- |
+| `uname -a` | System information   |
+| `du -sh`   | Folder size          |
+| `whoami`   | Current logged user  |
+| `history`  | Show command history |
 ### Navigation & Directory Management
 | Command    | Description                                |
 | ---------- | ------------------------------------------ |
