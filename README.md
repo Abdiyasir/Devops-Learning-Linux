@@ -11,4 +11,16 @@ This repository covers the useful common commands in linux and the different top
 | `cd <dir>` | Change directory                           |
 | `cd ..`    | Go up one level                            |
 | `cd ~`     | Change to home directory                       |
+### File & Directory Management
+| Command                   | Description                     |
+| ------------------------- | ------------------------------- |
+| `mkdir <name>`            | Create a directory              |
+| `mkdir -p path/to/newdir` | Create nested directories       |
+| `rmdir <dir>`             | Remove an empty directory       |
+| `rm <file>`               | Remove a file                   |
+| `rm -r <dir>`             | Remove a directory and contents |
+| `cp <source> <destination>`         | Copy a file                     |
+| `cp -r <source> <destination>`      | Copy a directory                |
+| `mv <source> <destination>`         | Move or rename files/folders    |
+| `touch <file>`            | Create an empty file            |
 
