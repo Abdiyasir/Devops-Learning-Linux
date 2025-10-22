@@ -35,4 +35,12 @@ This repository covers the useful common commands in linux and the different top
 | `grep "text" file`                  | Search inside a file      |
 | `find . -name "file.txt"`           | Search for a file by name starting (.) and looks in all subdirectories also.|
 | `find /path -type d -name "folder"` | Search for a directory named folder inside /path and all the subdirectories |
+### Redirection and Text Processing Commands
+| Command | Description                |  
+| ------- | -------------------------- | 
+| `>`     | Replaces the content of the file |                                
+| `>>`    | Adds content to the end of the file      |                               
+| `sort`  | Sort lines                 |                                
+| `uniq`  | Removes consecutive duplicate lines from a file |                                
+| `wc -l` | Count lines                |                               
 
