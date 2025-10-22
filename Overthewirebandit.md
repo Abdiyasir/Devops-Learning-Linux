@@ -33,7 +33,25 @@
 - `cat "/var/lib/dpkg/info/bandit7.password"`
 - Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ### Level 7 -> Level 8
+- ssh bandit7@bandit.labs.overthewire.org -p 2220
+- `cat "data.txt" | grep millionth`
+- Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ### Level 8 -> Level 9
+- ssh bandit8@bandit.labs.overthewire.org -p 2220
+- `cat data.txt | sort | uniq -u`
+- Password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ### Level 9 -> Level 10
+- ssh bandit9@bandit.labs.overthewire.org -p 2220
+- `cat "data.txt" | strings | grep =`
+- Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ### Level 10 -> Level 11
+- ssh bandit10@bandit.labs.overthewire.org -p 2220
+- `cat "data.txt" | base64 -d`
+- dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 ### Level 11 -> Level 12
+- ssh bandit11@bandit.labs.overthewire.org -p 2220
+- `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+- Password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+
+
