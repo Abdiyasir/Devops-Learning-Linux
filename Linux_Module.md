@@ -77,6 +77,6 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - `sudo chown newuser file.txt` | Changes ownership of file.txt so that newuser becomes its owner.
 - `sudo chgrp newgroup file.txt` | changes group ownership of file.txt so that the group admin becomes the new group associated with it
 - `sudo chown newuser:newgroup file.txt` | Changes both the owner and the group of file.txt in one step.
-- sudo chown -R newuser:newgroup directory/ | recursively changes ownership of a directory and everything inside it — including all subdirectories and files. Owner becomes newuser & group becomes newgroup
+- `sudo chown -R newuser:newgroup directory/` | recursively changes ownership of a directory and everything inside it — including all subdirectories and files. Owner becomes newuser & group becomes newgroup
 
 
