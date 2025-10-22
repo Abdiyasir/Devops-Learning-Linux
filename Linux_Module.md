@@ -102,5 +102,17 @@ Temporary Variable Example:
 To make them permanent, you add them to your shell config file — for example, .zshrc if you use Zsh.
 - `export MY_VAR="hello" && source ~/.zshrc` | By default, variables you create (like MY_VAR) only last for the current terminal session. To make them permanent, you add them to your shell config file — for example, .zshrc.
 
+### Aliases
+- `alias` | Shows a list of current aliases.
+- Temporary  Alias:
+- `alias hello='echo "Hello World"'` | Creates a shortcut command called hello that will print “Hello World” when you type it in the terminal.
+- Permenant Alias:
+- `vim ~/.zshrc` | Opens your Zsh configuration file in the Vim editor so you can manually add or edit settings like aliases
+- `alias update='sudo apt update && sudo apt upgrade -y'` | Adds a new alias called update to your .zshrc file — it runs both system update and upgrade commands automatically
+- `source ~/.zshrc` | Reloads your Zsh configuration so the new alias becomes active immediately (no need to restart the terminal).
+
+
+
+
 
 
