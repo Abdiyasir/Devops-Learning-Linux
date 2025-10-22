@@ -39,7 +39,7 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - `sudo usermod -aG sudo newuser`
 - `sudo deluser newuser sudo`
 
-###Managing Groups
+### Managing Groups
 - Groups can be created, have users added, users deleted & the group deleted
 - `sudo groupadd devops`
 - `sudo usermod -aG devops newuser`
@@ -47,5 +47,31 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - `sudo groupdel devops`
 
 ### File Permissions
+- Each file has three permission sets: user (owner), group, and others.
+- Example:
+- `-rwxr-xr--`
+- r = read
+- w = write
+- x = execute
+- - = no permissions
+- File permission commands:
+- `chmod u+x script.sh` | add execute for the user
+- `chmod g+r file.txt` | add read for the group
+- `chmod o-w file.txt` | remove write for others
+- `chmod a+x run.sh` | make executable for all
+- `chmod ug=rw,o=r file.txt` | specific permissions for the file — User & Group: read & write, Others: read only.
+- `chmod ug=rw,o=r file.txt` | specific permissions for the file — User & Group: read & write, Others: read only.
+
+
+### Numeric Mode for Permissions
+| Number | Meaning              | Permissions |
+| ------ | -------------------- | ----------- |
+| 7      | Read, write, execute | rwx         |
+| 6      | Read, write          | rw-         |
+| 5      | Read, execute        | r-x         |
+| 4      | Read                 | r--         |
+| 0      | None                 | ---         |
+
+
 
 
