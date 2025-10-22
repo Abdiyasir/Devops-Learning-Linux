@@ -89,3 +89,13 @@ Linux commands use three data streams:
 - Redirect to a file with 2> (overwrite) or 2>> (append).
 - To redirect both output and errors, use &> or &>>.
 - Send output to /dev/null to discard it.
+
+### Environment Variable
+Environment variables define your shell environment and behavior.
+- 
+
+
+
+
+
+
