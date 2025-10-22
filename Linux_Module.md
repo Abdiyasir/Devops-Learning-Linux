@@ -7,4 +7,4 @@ It is widely recognized for:
 - 🌍 Community support – continuously improved by developers worldwide
 
 ### What is the Terminal?
-The Terminal is a command-line interface (CLI) that lets you interact with the operating system by typing commands, it's where you can navigate and automate tasks.
+- The Terminal is a command-line interface (CLI) that lets you interact with the operating system by typing commands, it's where you can navigate and automate tasks.
