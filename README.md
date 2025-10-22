@@ -23,4 +23,10 @@ This repository covers the useful common commands in linux and the different top
 | `cp -r <source> <destination>`      | Copy a directory                |
 | `mv <source> <destination>`         | Move or rename files/folders    |
 | `touch <file>`            | Create an empty file            |
+### Viewing Files
+| Command            | Description            |
+| ------------------ | ---------------------- |
+| `cat <file>`       | Display file contents  |
+| `head -n 5 <file>` | Show first 5 lines     |
+| `tail -f <file>`   | Follow a log file live |
 
