@@ -111,6 +111,9 @@ To make them permanent, you add them to your shell config file — for example, 
 - `alias update='sudo apt update && sudo apt upgrade -y'` | Adds a new alias called update to your .zshrc file — it runs both system update and upgrade commands automatically
 - `source ~/.zshrc` | Reloads your Zsh configuration so the new alias becomes active immediately (no need to restart the terminal).
 
+### Command History
+- `history` | Shows a numbered list of all the commands you’ve recently run in the terminal.
+- `!244` | Runs the command from your history list that’s at line number 244. The Shell looks up command #244 from your history output and executes it again
 
 
 
