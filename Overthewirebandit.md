@@ -12,6 +12,11 @@
 - `cat -- "--spaces in this filename--"`
 - Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ### Level 3 -> Level 4
+- ssh bandit3@bandit.labs.overthewire.org -p 2220
+- `cd inhere`
+- `ls -a`
+- `cat "...Hiding-From-You"`
+- Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ### Level 4 -> Level 5
 ### Level 5 -> Level 6
 ### Level 6 -> Level 7
