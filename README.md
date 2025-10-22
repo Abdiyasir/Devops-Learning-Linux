@@ -10,5 +10,5 @@ This repository covers the useful common commands in linux and the different top
 | `ls -a`    | Show hidden files                          |
 | `cd <dir>` | Change directory                           |
 | `cd ..`    | Go up one level                            |
-| `cd ~`     | Go to home directory                       |
+| `cd ~`     | Change to home directory                       |
 
