@@ -29,4 +29,10 @@ This repository covers the useful common commands in linux and the different top
 | `cat <file>`       | Display file contents  |
 | `head -n 5 <file>` | Show first 5 lines     |
 | `tail -f <file>`   | Follow a log file live |
+### Search
+| Command                             | Description               |
+| ----------------------------------- | ------------------------- |
+| `grep "text" file`                  | Search inside a file      |
+| `find . -name "file.txt"`           | Search for a file by name starting (.) and looks in all subdirectories also.|
+| `find /path -type d -name "folder"` | Search for a directory named folder inside /path and all the subdirectories |
 
