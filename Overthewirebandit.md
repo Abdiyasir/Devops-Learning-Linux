@@ -1,7 +1,7 @@
 - Log into the server via: ssh bandit0@bandit.labs.overthewire.org -p 2220
 - Password: bandit0
 ### Level 0 -> Level 1
-- cat "readme"
+- 'cat "readme"'
 - Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ### Level 1 -> Level 2
 - ssh bandit1@bandit.labs.overthewire.org -p 2220
