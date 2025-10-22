@@ -53,7 +53,7 @@ The shell acts as a bridge between you and the operating system, interpreting wh
 - r = read
 - w = write
 - x = execute
-- - = no permissions
+- '-' = no permissions
 - File permission commands:
 - `chmod u+x script.sh` | add execute for the user
 - `chmod g+r file.txt` | add read for the group
